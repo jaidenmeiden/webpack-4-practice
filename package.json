@@ -12,7 +12,8 @@
     "build:css": "webpack --config ./cssStyleLoader/webpack.config.js",
     "build:plugins": "webpack --config ./plugins/webpack.config.js",
     "build:dev": "webpack-dev-server --config ./webpackDevServer/webpack.config.js",
-    "build:babel": "webpack-dev-server --config ./babel/webpack.config.js"
+    "build:babel": "webpack-dev-server --config ./babel/webpack.config.js",
+    "build:react": "webpack-dev-server --config ./react/webpack.config.js"
   },
   "keywords": [
     "webpack"
